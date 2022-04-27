@@ -1,0 +1,1 @@
+Citizen{name='omar', gender='female', id=123, age=34, dos=0} null 
