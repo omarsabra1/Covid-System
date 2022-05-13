@@ -50,8 +50,8 @@ public class Test {
 
         BufferedWriter writer=new BufferedWriter(new FileWriter("out.txt"));
         for (int i = 0; i< citizenList.size(); i++) {
-            writer.write(citizenList.get(i) + " "
-                    +     doseArrayList.get(i) + " "
+            writer.write(citizenList.get(i) + "\n"
+                    +     doseArrayList.get(i) + "\n"
             );
         }
         writer.close();
